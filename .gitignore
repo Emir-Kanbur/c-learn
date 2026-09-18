@@ -1,0 +1,46 @@
+# --- C Derleme Çıktıları ve Ara Dosyalar ---
+*.o
+*.obj
+*.out
+*.app
+*.exe
+
+# Derlenmiş ikili (binary) dosyalar (Uzantısız yürütülebilir dosyalar)
+hello
+main
+a.out
+
+# Dinamik ve Statik Kütüphaneler
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Hata Ayıklama (Debug) Sembolleri
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# --- macOS Sistem Dosyaları ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- IDE ve Editör Kalıntıları ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+compile_commands.json
+
+# --- Derleme Dizinleri (Make / CMake kullanırsan) ---
+build/
+bin/
+out/
