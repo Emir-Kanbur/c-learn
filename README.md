@@ -1,0 +1,1 @@
+C dilini ögrenirken olusturdugum dosyalar ve kullandigim kaynaklari iceren repo
